@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    width: 90%;
+    height: 70vh;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 4px #000000;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: 10px;
+}
+.quote{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 3px 2px #000000;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+}
+#quote1{
+    background-color: #ffe4c4;
+    border: 5px solid #ffb700;
+}
+#quote2{
+    background-color: #ffb700;
+    border: 5px dotted #a52a2a;
+}
+#quote3{
+    background-color: #a52a2a;
+    border: 5px double #ffe4c4;
+}
+#quote4{
+    background-color: #5f9ea0;
+    border: 5px dashed #020202;
+}
